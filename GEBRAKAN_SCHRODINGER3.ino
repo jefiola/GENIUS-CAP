@@ -10,7 +10,7 @@ int safetyDistance;
 
 
 void setup() {
-// put your setup code here, to run once:
+  
 Serial.begin(9600);
 pinMode(trigPin, OUTPUT);
 pinMode(echoPin, INPUT);
@@ -19,7 +19,7 @@ pinMode(buzzer, OUTPUT);
 
 
 void loop() {
-// put your main code here, to run repeatedly:
+
 digitalWrite(trigPin, LOW);
 delayMicroseconds(2);
 digitalWrite(trigPin, HIGH);
