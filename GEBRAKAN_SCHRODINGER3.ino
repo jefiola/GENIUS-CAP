@@ -1,9 +1,7 @@
-// defines pins numbers
 const int trigPin = 2;
 const int echoPin = 3
 const int buzzer = 4
 
-// defines variables
 long duration;
 int distance;
 int safetyDistance;
